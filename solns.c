@@ -1,10 +1,7 @@
 /* Enter your solutions in this file */
+#include <stdio.h>
 
 /*test_average.c*/
-#include <stdio.h>
-#include <assert.h>
-
-
 float average(int [], int);
 
 int main(void) {
@@ -28,10 +25,6 @@ float average(int arr[], int len){
 
 
 /*test_factors.c*/
-
-#include <stdio.h>
-#include <assert.h>
-
 
 int factors(int, int []);
 
@@ -78,8 +71,6 @@ return cnt1;
 
 
 /*test_max.c*/
-#include <stdio.h>
-#include <assert.h>
 
 int max(int [], int);
 
@@ -100,9 +91,6 @@ int main(void) {
        }
 
 /*test_min.c*/
-
-#include <stdio.h>
-#include <assert.h>
 
 
 int min(int [], int);
@@ -128,9 +116,6 @@ int min( int arr[], int len){
 
 
 /*test_mode.c*/
-
-#include <stdio.h>
-#include <assert.h>
 
 
 int mode(int [], int);
